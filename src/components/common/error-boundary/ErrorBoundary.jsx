@@ -1,6 +1,7 @@
 import React from "react";
 import {ErrorIndicator} from "../index";
 
+
 export default class ErrorBoundary extends React.Component {
 
     state = {
@@ -17,3 +18,4 @@ export default class ErrorBoundary extends React.Component {
         }
         return this.props.children;
     }
+}
